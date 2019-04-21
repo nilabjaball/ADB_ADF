@@ -12,16 +12,16 @@ Setup
 2. In the Storage category, click Storage account.
 
 3. Create a new storage account with the following settings:
-• Name: Specify a unique name (and make a note of it)
-• Deployment model: Resource manager
-• Account kind: Storage (general purpose v1)
-• Location: Choose the same location as your Databricks workspace
-• Replication: Locally-redundant storage (LRS)
-• Performance: Standard
-• Secure transfer required: Disabled
-• Subscription: Choose your Azure subscription
-• Resource group: Choose the existing resource group for your Databricks workspace
-• Virtual networks: Disabled
+- Name: Specify a unique name (and make a note of it)
+- Deployment model: Resource manager
+- Account kind: Storage (general purpose v1)
+-Location: Choose the same location as your Databricks workspace
+- Replication: Locally-redundant storage (LRS)
+- Performance: Standard
+- Secure transfer required: Disabled
+- Subscription: Choose your Azure subscription
+- Resource group: Choose the existing resource group for your Databricks workspace
+•-Virtual networks: Disabled
 
 4. Wait for the resource to be deployed. Then view the newly deployed storage account.
 
