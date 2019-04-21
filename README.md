@@ -86,10 +86,14 @@ c.	Rest as follows
  
 
 •	Go to advance and under spark conf settings , add two name value pair
+
 i.	Name: fs.azure.account.key.databrickshacks.blob.core.windows.net  
-Value : <XXX Storage account Key>
+
+Value : XXX Storage account Key
+
 ii.	Name : spark.hadoop.fs.azure.account.key.databrickshacks.blob.core.windows.net 
-Value :  <XXX storage account key >
+
+Value :  XXX storage account key 
 
 d.	Click Finish
 ### Task 4 ###
