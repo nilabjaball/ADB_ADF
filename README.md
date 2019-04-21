@@ -30,7 +30,7 @@ In this lab, you will learn how to create on-demand Azure Databricks cluster and
 6. In the Browse blobs blade, click  Container, and create a new container with the following
 settings:
 • Name: spark
-• Public access level:  Anonymous 
+• Public access level:  Private 
 
 7. In the Settings section of the blade for your blob store, click Access keys and note the Storage
 account name and key1 values on this blade – you will need these in the next procedure.
