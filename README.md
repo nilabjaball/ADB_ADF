@@ -1,11 +1,10 @@
-#Deployment of On-Demand Cluster
-
-##Create and Configure Azure Data Factory##
+# Deployment of On-Demand Cluster
+## Create and Configure Azure Data Factory
 
 In this lab, you will learn how to create on-demand Azure Databricks cluster and run jobs using Azure Data Factory.
 Setup 
 
-###Setting up Azure blob Storage ###
+### Setting up Azure blob Storage 
 
 1.In the Azure portal tab in your browser and click  Create a resource.
 
@@ -39,9 +38,9 @@ account name and key1 values on this blade – you will need these in the next p
 
 9.  Upload the file IISlog.txt
 
-###Task 1###
+### Task 1
 
-####Import the Notebook ####
+#### Import the Notebook 
 1.	Go to the Azure Databricks workspace
 
 2.	Click import and import ProcessLog.py
@@ -52,9 +51,9 @@ account name and key1 values on this blade – you will need these in the next p
 
 5.	Note down the token 
 
-###Task 2 ###
+### Task 2 ###
 
-####Create an Azure data factory ####
+#### Create an Azure data factory ####
 
 •	Go to Create a Resource | Analytics | Data Factory 
 
@@ -64,10 +63,10 @@ b.	Select the resource group already used in the lab
 c.	Use location as west Europe 
 
 
-###Task 3 ####
+### Task 3 ####
 
 Use Edge \Chrome 
-####Create a Linked Service ####
+#### Create a Linked Service ####
 
 •	Go to the newly created resource and click on author and monitoring 
 
@@ -92,9 +91,9 @@ ii.	Name : spark.hadoop.fs.azure.account.key.databrickshacks.blob.core.windows.n
 Value :  <XXX storage account key >
 
 d.	Click Finish
-###Task 4 ###
+### Task 4 ###
 
-####Create a Pipeline ####
+#### Create a Pipeline ####
 1.	Go to authoring page and click on pipeline and select Add Pipeline
 
 2.	Select DataBricks and Drag Notebook
@@ -109,8 +108,8 @@ d.	Click Finish
 
 7.	Click Publish All
 
-###Task 5 ###
-####Run and monitor ####
+### Task 5 ###
+#### Run and monitor ####
 1.	Once published Successfully , add trigger and trigger now.
 
 2.	Click finish
